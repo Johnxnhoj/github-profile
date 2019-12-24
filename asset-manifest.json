@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d64c5fe.chunk.css",
+    "main.js": "/static/js/main.39cb3f45.chunk.js",
+    "main.js.map": "/static/js/main.39cb3f45.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8bf9c574.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8bf9c574.js.map",
+    "static/js/2.4a3c046b.chunk.js": "/static/js/2.4a3c046b.chunk.js",
+    "static/js/2.4a3c046b.chunk.js.map": "/static/js/2.4a3c046b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.38efc2dbea867fa9033349e7ca433ef3.js": "/precache-manifest.38efc2dbea867fa9033349e7ca433ef3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0d64c5fe.chunk.css.map": "/static/css/main.0d64c5fe.chunk.css.map",
+    "static/media/base.css": "/static/media/4k picture of vegas.b68e3687.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bf9c574.js",
+    "static/js/2.4a3c046b.chunk.js",
+    "static/css/main.0d64c5fe.chunk.css",
+    "static/js/main.39cb3f45.chunk.js"
+  ]
+}
