@@ -1,4 +1,5 @@
 import React from "react"
+import I from "../lib/Icon"
 
 export default function(props) {
   return (
@@ -17,8 +18,16 @@ export default function(props) {
           className="find2"
           placeholder="Find a repoitory"
         ></input>
-        <button>Type: All&#9660;</button>
-        <button>language: All&#9660;</button>
+        <button className="ButtonZ">
+          <a>Type:</a> <a className="a2">All&#9660;</a>
+        </button>
+        <button className="ButtonZ">
+          <a>language:</a> <a className="a2">All&#9660;</a>
+        </button>
+        <button className="book">
+          <I icon="book" />
+          New
+        </button>
       </div>
       {props.repos.map((repo, i) => (
         <div className="Each-R" key={"repo" + i}>

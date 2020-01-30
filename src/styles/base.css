@@ -27,15 +27,17 @@ code {
 .header {
   background: black;
   color: white;
-  height: 60px;
+  height: 80px;
   display: flex;
   align-items: center;
   padding: 0px 20px;
 }
 .header2:first-child {
-  font-size: 40px;
+  font-size: 45px;
   display: flex;
+  margin: 10px 20px;
 }
+
 .header3 {
   display: flex;
   justify-content: space-between;
@@ -44,13 +46,15 @@ code {
 }
 .search {
   background-color: rgb(65, 65, 65);
-  border: none;
+
   outline: none;
   color: white;
-  height: 30px;
-  width: 300px;
-  border-radius: 5%;
+  height: 40px;
+  width: 350px;
   font-size: 15px;
+  margin: 5px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.164);
+  border-radius: 2%;
 }
 .container {
   display: grid;
@@ -63,9 +67,9 @@ code {
 }
 
 .image {
-  width: 270px;
-  height: 270px;
-  border-radius: 5%;
+  width: 320px;
+  height: 320px;
+  border-radius: 2%;
 }
 .Nav-Bar {
   display: flex;
@@ -79,8 +83,7 @@ code {
   flex-direction: column;
   padding: 20px 0px;
 }
-.Repo-fix {
-}
+
 .Each-R {
   display: flex;
 
@@ -101,12 +104,43 @@ code {
   font-weight: bold;
 }
 .find-r {
-  height: 40px;
   border-bottom: 1px solid grey;
   display: flex;
   align-items: center;
+
+  height: 75px;
 }
 .find2 {
   font-size: 15px;
   width: 600px;
+  height: 40px;
+}
+.Repo-fix {
+  width: 70em;
+}
+
+/* buttons*/
+.ButtonZ {
+  width: 150px;
+  height: 35px;
+  font-size: 18px;
+  margin: 15px;
+}
+.ButtonZ a {
+  font-size: 18px;
+}
+.a2 {
+  font-weight: bold;
+}
+
+.book {
+  background: rgb(62, 201, 62);
+  border-radius: 5px;
+  outline: none;
+  height: 35px;
+  width: 80px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
 }
